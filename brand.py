@@ -67,62 +67,29 @@ cps=[]
 
 
     
-    
-def main_apv():
-    imt="=="
-    os.system('clear')
-    print logo
-    try:
-        key1=open("/sdcard/.android.txt",'r').read()
-    except IOError:
-        os.system("clear")
-        print logo
-        print ("           You dont have subscrption")
-        print("           SALAM Wrora Daga coomand Key goary")
-        print ("           Ap Ke Subscription Nhi Ha Please Ap") 
-        print ("           Admin Sa Rabta Kran Thanks")
-        print ("           Subscription Kelya Enter Press Kro")
-        print ("           Or Whatsapp Pa Rabta Kro Thanks")
-        print ("")
-        myid=uuid.uuid4().hex[:15]
-        print ("         YOUR KEY : "+myid+imt)
-        kok=open("/sdcard/.phucknayabpari.txt",'w')
-        kok.write(myid+imt)
-        kok.close()
-        print ("")
-        print ("           Haga Pas Sta Key Da")
-        print ("           Copy ye kra WhatsApp ky Ye Raoliga")
-        print ("")
-        print ("")
-        print ("")
-        print ("     Agar Ap Na Subscription Kar Le Ha To")
-        raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
-        os.system("https://www.facebook.com/veerkhano711Mafiagroup711owner")
-        
-    r1=requests.get("https://raw.githubusercontent.com/veerkoko/veerbrand/main/brand.txt").text
-    if key1 in r1:
-        main_system()
-    else:
-        os.system("clear")
-        print logo
-        print ("           You dont have subscrption")
-        print("           Hello Dear Ya Cammonds Paid Han Or")
-        print ("           Ap Ke Subscription Nhi Ha Please Ap") 
-        print ("           Admin Sa Rabta Kran Thanks")
-        print ("           Subscription Kelya Enter Press Kro")
-        print ("           Or Whatsapp Pa Rabta Kro Thanks")
-        print ("")
-        print ("         YOUR KEY : "+key1)
-        print ("")
-        print ("           Ya Uper Wale Ap Ke KEY Ha")
-        print ("           Copy Kar Ka WhatsApp Pa Bhaj Dena")
-        print ("")
-        print ("")
-        print ("")
-        print ("     Agar Ap Na Subscription Kar Le Ha To")
-        raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
-         
-        os.system("https://www.facebook.com/veerkhano711Mafiagroup711owner")
+    def runtxt(z):
+    for e in z + "\n":
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.03)
+
+
+
+def helpnote():
+	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
+	subprocess.check_output(["am", "start", " https://www.facebook.com/veerkhano711Mafiagroup711owner"])
+	exit(" [*] FACEBOOK : https://www.facebook.com/veerkhano711Mafiagroup711owner")
+
+
+def notice():
+
+ 
+
+	runtxt("\n\033[0;99m ðŸ”¥YOU ARE NOT PREMIUM USERðŸ”¥ ")
+	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
+	runtxt("\033[0;93m ADMIN FACEBOOK >> \033[0;92mMR Veer\033[0;92m")
+	subprocess.check_output(["am", "start", "https://www.facebook.com/veerkhano711Mafiagroup711owner"])
+
         
         
         
